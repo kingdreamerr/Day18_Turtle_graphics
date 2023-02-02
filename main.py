@@ -24,3 +24,6 @@ for dot_count in range(1,number_of_dots + 1):
     cat.setheading(180)
     cat.forward(500)
     cat.setheading(0)
+
+my_screen = Screen()
+my_screen.exitonclick()
