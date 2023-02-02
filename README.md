@@ -2,7 +2,7 @@
 
 ## Project to solidify material learned 
 
-### Damien Hirst's dotted painting:
+### Damien Hirst's spot painting:
 
 > Use turtle graphics to create a Damien Hirst's spot art work
 
