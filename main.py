@@ -13,3 +13,14 @@ cat.penup()
 cat.setheading(255)
 cat.forward(300)
 cat.setheading(0)
+
+for dot_count in range(1,number_of_dots + 1):
+  cat.dot(20,choice(color_list))
+  cat.forward(50)
+
+  if dot_count % 10 == 0:
+    cat.setheading(90)
+    cat.forward(50)
+    cat.setheading(180)
+    cat.forward(500)
+    cat.setheading(0)
